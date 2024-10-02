@@ -12,7 +12,7 @@ class App extends React.Component<Record<string, unknown>, undefined> {
     );
   }
 }
-
+ 
 declare let module: Record<string, unknown>;
 
 export default hot(module)(App);
